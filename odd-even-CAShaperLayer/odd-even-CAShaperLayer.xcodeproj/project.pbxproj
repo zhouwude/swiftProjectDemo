@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6236F7B21E1C8ADA00873281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236F7B11E1C8ADA00873281 /* AppDelegate.swift */; };
+		6236F7B41E1C8ADA00873281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236F7B31E1C8ADA00873281 /* ViewController.swift */; };
+		6236F7B71E1C8ADA00873281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6236F7B51E1C8ADA00873281 /* Main.storyboard */; };
+		6236F7B91E1C8ADA00873281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6236F7B81E1C8ADA00873281 /* Assets.xcassets */; };
+		6236F7BC1E1C8ADA00873281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6236F7BA1E1C8ADA00873281 /* LaunchScreen.storyboard */; };
+		6236F7C71E1C8ADA00873281 /* odd_even_CAShaperLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236F7C61E1C8ADA00873281 /* odd_even_CAShaperLayerTests.swift */; };
+		6236F7D21E1C8ADA00873281 /* odd_even_CAShaperLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236F7D11E1C8ADA00873281 /* odd_even_CAShaperLayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6236F7C31E1C8ADA00873281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6236F7A61E1C8ADA00873281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6236F7AD1E1C8ADA00873281;
+			remoteInfo = "odd-even-CAShaperLayer";
+		};
+		6236F7CE1E1C8ADA00873281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6236F7A61E1C8ADA00873281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6236F7AD1E1C8ADA00873281;
+			remoteInfo = "odd-even-CAShaperLayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6236F7AE1E1C8ADA00873281 /* odd-even-CAShaperLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "odd-even-CAShaperLayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6236F7B11E1C8ADA00873281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6236F7B31E1C8ADA00873281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6236F7B61E1C8ADA00873281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6236F7B81E1C8ADA00873281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6236F7BB1E1C8ADA00873281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6236F7BD1E1C8ADA00873281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6236F7C21E1C8ADA00873281 /* odd-even-CAShaperLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "odd-even-CAShaperLayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6236F7C61E1C8ADA00873281 /* odd_even_CAShaperLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odd_even_CAShaperLayerTests.swift; sourceTree = "<group>"; };
+		6236F7C81E1C8ADA00873281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6236F7CD1E1C8ADA00873281 /* odd-even-CAShaperLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "odd-even-CAShaperLayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6236F7D11E1C8ADA00873281 /* odd_even_CAShaperLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odd_even_CAShaperLayerUITests.swift; sourceTree = "<group>"; };
+		6236F7D31E1C8ADA00873281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6236F7AB1E1C8ADA00873281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236F7BF1E1C8ADA00873281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236F7CA1E1C8ADA00873281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6236F7A51E1C8ADA00873281 = {
+			isa = PBXGroup;
+			children = (
+				6236F7B01E1C8ADA00873281 /* odd-even-CAShaperLayer */,
+				6236F7C51E1C8ADA00873281 /* odd-even-CAShaperLayerTests */,
+				6236F7D01E1C8ADA00873281 /* odd-even-CAShaperLayerUITests */,
+				6236F7AF1E1C8ADA00873281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6236F7AF1E1C8ADA00873281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6236F7AE1E1C8ADA00873281 /* odd-even-CAShaperLayer.app */,
+				6236F7C21E1C8ADA00873281 /* odd-even-CAShaperLayerTests.xctest */,
+				6236F7CD1E1C8ADA00873281 /* odd-even-CAShaperLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6236F7B01E1C8ADA00873281 /* odd-even-CAShaperLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6236F7B11E1C8ADA00873281 /* AppDelegate.swift */,
+				6236F7B31E1C8ADA00873281 /* ViewController.swift */,
+				6236F7B51E1C8ADA00873281 /* Main.storyboard */,
+				6236F7B81E1C8ADA00873281 /* Assets.xcassets */,
+				6236F7BA1E1C8ADA00873281 /* LaunchScreen.storyboard */,
+				6236F7BD1E1C8ADA00873281 /* Info.plist */,
+			);
+			path = "odd-even-CAShaperLayer";
+			sourceTree = "<group>";
+		};
+		6236F7C51E1C8ADA00873281 /* odd-even-CAShaperLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6236F7C61E1C8ADA00873281 /* odd_even_CAShaperLayerTests.swift */,
+				6236F7C81E1C8ADA00873281 /* Info.plist */,
+			);
+			path = "odd-even-CAShaperLayerTests";
+			sourceTree = "<group>";
+		};
+		6236F7D01E1C8ADA00873281 /* odd-even-CAShaperLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6236F7D11E1C8ADA00873281 /* odd_even_CAShaperLayerUITests.swift */,
+				6236F7D31E1C8ADA00873281 /* Info.plist */,
+			);
+			path = "odd-even-CAShaperLayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6236F7AD1E1C8ADA00873281 /* odd-even-CAShaperLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6236F7D61E1C8ADA00873281 /* Build configuration list for PBXNativeTarget "odd-even-CAShaperLayer" */;
+			buildPhases = (
+				6236F7AA1E1C8ADA00873281 /* Sources */,
+				6236F7AB1E1C8ADA00873281 /* Frameworks */,
+				6236F7AC1E1C8ADA00873281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "odd-even-CAShaperLayer";
+			productName = "odd-even-CAShaperLayer";
+			productReference = 6236F7AE1E1C8ADA00873281 /* odd-even-CAShaperLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6236F7C11E1C8ADA00873281 /* odd-even-CAShaperLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6236F7D91E1C8ADA00873281 /* Build configuration list for PBXNativeTarget "odd-even-CAShaperLayerTests" */;
+			buildPhases = (
+				6236F7BE1E1C8ADA00873281 /* Sources */,
+				6236F7BF1E1C8ADA00873281 /* Frameworks */,
+				6236F7C01E1C8ADA00873281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6236F7C41E1C8ADA00873281 /* PBXTargetDependency */,
+			);
+			name = "odd-even-CAShaperLayerTests";
+			productName = "odd-even-CAShaperLayerTests";
+			productReference = 6236F7C21E1C8ADA00873281 /* odd-even-CAShaperLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6236F7CC1E1C8ADA00873281 /* odd-even-CAShaperLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6236F7DC1E1C8ADA00873281 /* Build configuration list for PBXNativeTarget "odd-even-CAShaperLayerUITests" */;
+			buildPhases = (
+				6236F7C91E1C8ADA00873281 /* Sources */,
+				6236F7CA1E1C8ADA00873281 /* Frameworks */,
+				6236F7CB1E1C8ADA00873281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6236F7CF1E1C8ADA00873281 /* PBXTargetDependency */,
+			);
+			name = "odd-even-CAShaperLayerUITests";
+			productName = "odd-even-CAShaperLayerUITests";
+			productReference = 6236F7CD1E1C8ADA00873281 /* odd-even-CAShaperLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6236F7A61E1C8ADA00873281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "医明康德";
+				TargetAttributes = {
+					6236F7AD1E1C8ADA00873281 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6236F7C11E1C8ADA00873281 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6236F7AD1E1C8ADA00873281;
+					};
+					6236F7CC1E1C8ADA00873281 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6236F7AD1E1C8ADA00873281;
+					};
+				};
+			};
+			buildConfigurationList = 6236F7A91E1C8ADA00873281 /* Build configuration list for PBXProject "odd-even-CAShaperLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6236F7A51E1C8ADA00873281;
+			productRefGroup = 6236F7AF1E1C8ADA00873281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6236F7AD1E1C8ADA00873281 /* odd-even-CAShaperLayer */,
+				6236F7C11E1C8ADA00873281 /* odd-even-CAShaperLayerTests */,
+				6236F7CC1E1C8ADA00873281 /* odd-even-CAShaperLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6236F7AC1E1C8ADA00873281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6236F7BC1E1C8ADA00873281 /* LaunchScreen.storyboard in Resources */,
+				6236F7B91E1C8ADA00873281 /* Assets.xcassets in Resources */,
+				6236F7B71E1C8ADA00873281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236F7C01E1C8ADA00873281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236F7CB1E1C8ADA00873281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6236F7AA1E1C8ADA00873281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6236F7B41E1C8ADA00873281 /* ViewController.swift in Sources */,
+				6236F7B21E1C8ADA00873281 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236F7BE1E1C8ADA00873281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6236F7C71E1C8ADA00873281 /* odd_even_CAShaperLayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6236F7C91E1C8ADA00873281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6236F7D21E1C8ADA00873281 /* odd_even_CAShaperLayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6236F7C41E1C8ADA00873281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6236F7AD1E1C8ADA00873281 /* odd-even-CAShaperLayer */;
+			targetProxy = 6236F7C31E1C8ADA00873281 /* PBXContainerItemProxy */;
+		};
+		6236F7CF1E1C8ADA00873281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6236F7AD1E1C8ADA00873281 /* odd-even-CAShaperLayer */;
+			targetProxy = 6236F7CE1E1C8ADA00873281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6236F7B51E1C8ADA00873281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6236F7B61E1C8ADA00873281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6236F7BA1E1C8ADA00873281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6236F7BB1E1C8ADA00873281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6236F7D41E1C8ADA00873281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6236F7D51E1C8ADA00873281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6236F7D71E1C8ADA00873281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "odd-even-CAShaperLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odd-even-CAShaperLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6236F7D81E1C8ADA00873281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "odd-even-CAShaperLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odd-even-CAShaperLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6236F7DA1E1C8ADA00873281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "odd-even-CAShaperLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odd-even-CAShaperLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odd-even-CAShaperLayer.app/odd-even-CAShaperLayer";
+			};
+			name = Debug;
+		};
+		6236F7DB1E1C8ADA00873281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "odd-even-CAShaperLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odd-even-CAShaperLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odd-even-CAShaperLayer.app/odd-even-CAShaperLayer";
+			};
+			name = Release;
+		};
+		6236F7DD1E1C8ADA00873281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "odd-even-CAShaperLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odd-even-CAShaperLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "odd-even-CAShaperLayer";
+			};
+			name = Debug;
+		};
+		6236F7DE1E1C8ADA00873281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "odd-even-CAShaperLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.odd-even-CAShaperLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "odd-even-CAShaperLayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6236F7A91E1C8ADA00873281 /* Build configuration list for PBXProject "odd-even-CAShaperLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6236F7D41E1C8ADA00873281 /* Debug */,
+				6236F7D51E1C8ADA00873281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6236F7D61E1C8ADA00873281 /* Build configuration list for PBXNativeTarget "odd-even-CAShaperLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6236F7D71E1C8ADA00873281 /* Debug */,
+				6236F7D81E1C8ADA00873281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6236F7D91E1C8ADA00873281 /* Build configuration list for PBXNativeTarget "odd-even-CAShaperLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6236F7DA1E1C8ADA00873281 /* Debug */,
+				6236F7DB1E1C8ADA00873281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6236F7DC1E1C8ADA00873281 /* Build configuration list for PBXNativeTarget "odd-even-CAShaperLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6236F7DD1E1C8ADA00873281 /* Debug */,
+				6236F7DE1E1C8ADA00873281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6236F7A61E1C8ADA00873281 /* Project object */;
+}
