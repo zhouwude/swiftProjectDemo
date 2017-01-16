@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+       
 //        fun1()
         fun1("ss")
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
         path2.addRect(CGRect.init(x: 100, y: 100, width: 100, height: 100))
         path1.addPath(path2)
         shaperLayer.path = path1
+        
         shaperLayer.fillRule = kCAFillRuleEvenOdd
         view.layer.addSublayer(shaperLayer)
     }
