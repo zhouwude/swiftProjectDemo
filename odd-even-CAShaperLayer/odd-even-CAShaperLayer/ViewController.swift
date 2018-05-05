@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-//        fun1()
-        fun1("ss")
+        fun1()
+       // fun1("ss")
         // Do any additional setup after loading the view, typically from a nib.
     }
     //做镂空的图层
